@@ -1,0 +1,5 @@
+Durschnittliche Rendite MSCI-World bestimmen
+Hochpunkt Speerwurf
+Machinelearning linear Regression
+Wetter/Temperatur
+fouriertransformation
