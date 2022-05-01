@@ -8,7 +8,7 @@ y = exp(x/10);
 yy = 4 * 2.^(x/7);
 yyNoise = wgn(length(yy),1,0);
 yy = yy + yyNoise';
-M = [x; yy]
+M = [y ]
 plot(x,yy,'.')
 disp(1)
-% csvwrite('cellGrowth.csv',M')
+csvwrite('cellGrowth',M)
