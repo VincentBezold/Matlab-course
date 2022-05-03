@@ -1,14 +1,28 @@
-% This script calculates the performance of the DAX from 1987
+
+%% The overall goal of this exercise is to determine the perperformance of the DAX from 1987
+% There for we need to 
+% 1. import the data
+% 2. manipulate the data
+
 
 close all
 clear all
 clc 
 
-%% importing of the data as well as manipulating of the data for easier calculation
+%% 
+% importing of the data as well as manipulating of the data for easier calculation
 
+%% 
+% Task: importing of the data: DAXOpening.csv
 data = readtable('DAXOpening.csv');
 date = table2array(data(:,1));
+
+%% 
+% this functions turns the date into a dezimal number, which makes it
+% possible fo have calculations on it. Feel free to look up the function
 yearDate = datetime(date,'ConvertFrom','datenum');
+
+
 date = date-date(1)+1;
 date = date/365;
 

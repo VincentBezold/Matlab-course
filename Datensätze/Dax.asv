@@ -6,8 +6,12 @@ clc
 
 %% importing of the data as well as manipulating of the data for easier calculation
 
+% importing of the data: DAXOpening.csv
 data = readtable('DAXOpening.csv');
 date = table2array(data(:,1));
+
+% this functions turns the date into a dezimal number, which makes it
+% possible fo have 
 yearDate = datetime(date,'ConvertFrom','datenum');
 date = date-date(1)+1;
 date = date/365;
