@@ -1,6 +1,0 @@
-A = readtable('DAX.csv');
-date = table2array(A(:,1));
-% date = datenum(date,'yyyy/mm/dd');
-date = datetime(date,'InputFormat','yyyy/mm/dd');
-text = table2array(A(:,2));
-plot(date, text)
