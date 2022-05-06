@@ -7,3 +7,5 @@ x = data(:,1);
 y = data(:,2);
 plot(x,y)
 legend('parabula')
+xlabel('x-axis')
+ylabel('y-axis')
