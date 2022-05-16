@@ -9,13 +9,13 @@ yy = 10 * 2.^(x/7);
 yyy = -1*(x-4).^2 + 5;
 yyNoise = wgn(length(yy),1,-5);
 yyyy = sin(x*3)./x;
-yyyy = sin(x) + 2;
+yyyy = 1.5*sin(x);
 % yyyy = -x.^5 + 5* x.^3 - 4*x
-yyyy = yyyy + yyNoise';
+% yyyy = yyyy + yyNoise';
 % yy = round(yy);
 M = [x; yyyy];
-plot(x,yyyy,'.')
-hold on
-plot(x,movmean(yyyy, 10))
-disp(1)
-% csvwrite('sinNoisy.csv',M')
+% plot(x,yyyy,'.')
+% hold on
+% plot(x,movmean(yyyy, 10))
+% disp(1)
+csvwrite('sin.csv',M')
