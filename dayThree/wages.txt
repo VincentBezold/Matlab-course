@@ -1,0 +1,18 @@
+job, wage
+Industrie-Mechaniker,2.500 
+Informatiker,3.800 
+Ingenieure,3.850 
+Lokführer,2.450 
+Kfz-Mechatroniker,2.900 
+Mechatroniker,2.200 
+Wirtschafts-Informatiker,4.350 
+Zerspanungs-Mechaniker,2.400
+Industriekaufleute,2.750 
+Juwelier,2.400 
+Key Account Manager,3.900 
+Kommissionierer,1.700 
+Logistiker,3.150 
+Produktionshelfer,1.600 
+Verkauufer,1.600
+Bankkaufleute,2.600 
+Betriebswirt,2.800 
